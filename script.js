@@ -1,8 +1,8 @@
 
-
+// declaring variables
 const para = document.querySelector("#para");
 
-
+// initializing time interval to 1000 milliseconds
     setInterval(() => {
         a = new Date();
         let hours = a.getHours();
@@ -14,7 +14,6 @@ const para = document.querySelector("#para");
             hours = hours - 12;
             am="PM";
         }
-
         if(sec<10){
             sec = "0" + sec;
         } if(min<10){
@@ -22,12 +21,10 @@ const para = document.querySelector("#para");
         } if(hours <10){
             hours = "0" + hours;
         }
-
-        
+// getting date string
         const date = a.toLocaleDateString()
         para.innerText = hours + " : "+ min + " : " + sec+ " : " + am +  "  on  " +  date;
 
-        
     }, 1000);
 
 

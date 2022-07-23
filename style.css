@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://i.pinimg.com/originals/13/7e/8c/137e8c8ee47a632fb20843fd293a4f61.jpg)no-repeat center center fixed ;
+    background-size: cover;
+}
+
+.container{
+    position:absolute;
+    height:270px;
+    width:700px;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display:block;
+    border:none;
+    padding:10px;
+    background-color: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    border-radius: 10px;
+}
+
+.container h1{
+    text-align: center;
+    margin-top:30px;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color:rgb(202, 249, 255);
+    
+}
+
+.container p{
+    text-align: center;
+    margin:30px;
+    font-size: 50px;
+    color:rgb(202, 249, 255);;
+}
