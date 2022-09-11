@@ -11,7 +11,7 @@ const para = document.querySelector("#para");
         let am = "AM";
         
         if(hours>=12){
-            hours = hours - 12;
+            // hours = hours - 12;
             am="PM";
         }
         if(sec<10){
